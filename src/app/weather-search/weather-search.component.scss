@@ -1,0 +1,24 @@
+$break-small: 600px;
+
+form {
+  padding-bottom: 50px;
+  @media screen and (max-width: $break-small) {
+  padding-bottom: 0;
+  }
+  div.row {
+    div.input-field {
+      label {}
+      input {}
+    }
+  }
+  div.row {
+    div {
+
+      button {
+        @media screen and (max-width: $break-small) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

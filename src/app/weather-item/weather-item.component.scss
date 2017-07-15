@@ -1,0 +1,37 @@
+$mobile: 380px;
+
+ul {
+  li {
+    .subColectionContLeft {
+      h3 {
+        color: #666666;
+        @media screen and (max-width: $mobile) {
+          font-size: 35px;
+          text-align: left;
+        }
+      }
+      p {
+
+      }
+
+    }
+    .subColectionContRight {
+      margin: 0 auto;
+      text-align: center;
+      p.temp {
+        font-size: 20px;
+        @media screen and (max-width: $mobile) {
+          font-size: 16px;
+          text-align: right;
+        }
+      }
+      p.info {
+        color: #666666;
+        @media screen and (max-width: $mobile) {
+          font-size: 12px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
